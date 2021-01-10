@@ -307,12 +307,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:LM324 U1
 U 2 1 5FFAB035
-P 5650 2300
-F 0 "U1" H 5650 1933 50  0000 C CNN
-F 1 "LM324" H 5650 2024 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5600 2400 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5700 2500 50  0001 C CNN
-	2    5650 2300
+P 11900 2750
+F 0 "U1" H 11900 2383 50  0000 C CNN
+F 1 "LM324" H 11900 2474 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 11850 2850 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 11950 2950 50  0001 C CNN
+	2    11900 2750
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -820,12 +820,12 @@ Connection ~ 9700 2000
 $Comp
 L Amplifier_Operational:LM324 U1
 U 3 1 600153C9
-P 11900 2750
-F 0 "U1" H 11900 2383 50  0000 C CNN
-F 1 "LM324" H 11900 2474 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 11850 2850 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 11950 2950 50  0001 C CNN
-	3    11900 2750
+P 12900 2650
+F 0 "U1" H 12900 2283 50  0000 C CNN
+F 1 "LM324" H 12900 2374 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12850 2750 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 12950 2850 50  0001 C CNN
+	3    12900 2650
 	1    0    0    1   
 $EndComp
 $Comp
@@ -925,12 +925,12 @@ Wire Wire Line
 $Comp
 L Amplifier_Operational:LM324 U1
 U 4 1 60015404
-P 12900 2650
-F 0 "U1" H 12900 2283 50  0000 C CNN
-F 1 "LM324" H 12900 2374 50  0000 C CNN
-F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 12850 2750 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 12950 2850 50  0001 C CNN
-	4    12900 2650
+P 5650 2300
+F 0 "U1" H 5650 1933 50  0000 C CNN
+F 1 "LM324" H 5650 2024 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 5600 2400 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 5700 2500 50  0001 C CNN
+	4    5650 2300
 	1    0    0    1   
 $EndComp
 Wire Wire Line
@@ -1493,4 +1493,110 @@ F 3 "" H 13150 5650 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	13150 5600 13150 5650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 605EE444
+P 11250 8500
+F 0 "H1" H 11350 8546 50  0000 L CNN
+F 1 "MountingHole" H 11350 8455 50  0000 L CNN
+F 2 "HammerheadAudio:M3_MOUNT_KEEPOUT" H 11250 8500 50  0001 C CNN
+F 3 "~" H 11250 8500 50  0001 C CNN
+	1    11250 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 605EE643
+P 12400 8500
+F 0 "H2" H 12500 8546 50  0000 L CNN
+F 1 "MountingHole" H 12500 8455 50  0000 L CNN
+F 2 "HammerheadAudio:M3_MOUNT_KEEPOUT" H 12400 8500 50  0001 C CNN
+F 3 "~" H 12400 8500 50  0001 C CNN
+	1    12400 8500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 605EE8CF
+P 13400 8450
+F 0 "H3" H 13500 8496 50  0000 L CNN
+F 1 "MountingHole" H 13500 8405 50  0000 L CNN
+F 2 "HammerheadAudio:M3_MOUNT_KEEPOUT" H 13400 8450 50  0001 C CNN
+F 3 "~" H 13400 8450 50  0001 C CNN
+	1    13400 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 605EEB7D
+P 14250 8450
+F 0 "H4" H 14350 8496 50  0000 L CNN
+F 1 "MountingHole" H 14350 8405 50  0000 L CNN
+F 2 "HammerheadAudio:M3_MOUNT_KEEPOUT" H 14250 8450 50  0001 C CNN
+F 3 "~" H 14250 8450 50  0001 C CNN
+	1    14250 8450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Amplifier_Operational:LM324 U1
+U 5 1 606261BA
+P 4900 3800
+F 0 "U1" H 5000 3700 50  0000 C CNN
+F 1 "LM324" H 5000 3800 50  0000 C CNN
+F 2 "Package_DIP:DIP-14_W7.62mm_Socket" H 4850 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2902-n.pdf" H 4950 4000 50  0001 C CNN
+	5    4900 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR031
+U 1 1 6062685C
+P 5000 4200
+F 0 "#PWR031" H 5000 3950 50  0001 C CNN
+F 1 "GND" H 5005 4027 50  0000 C CNN
+F 2 "" H 5000 4200 50  0001 C CNN
+F 3 "" H 5000 4200 50  0001 C CNN
+	1    5000 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VDC #PWR030
+U 1 1 60640F65
+P 5000 3400
+F 0 "#PWR030" H 5000 3300 50  0001 C CNN
+F 1 "VDC" H 5000 3675 50  0000 C CNN
+F 2 "" H 5000 3400 50  0001 C CNN
+F 3 "" H 5000 3400 50  0001 C CNN
+	1    5000 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 4100 5000 4150
+Wire Wire Line
+	5000 3400 5000 3450
+$Comp
+L Device:C C11
+U 1 1 6065D093
+P 5200 3800
+F 0 "C11" V 4948 3800 50  0000 C CNN
+F 1 "0.1uf" V 5039 3800 50  0000 C CNN
+F 2 "Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm" H 5238 3650 50  0001 C CNN
+F 3 "~" H 5200 3800 50  0001 C CNN
+	1    5200 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5000 3450 5200 3450
+Wire Wire Line
+	5200 3450 5200 3650
+Connection ~ 5000 3450
+Wire Wire Line
+	5000 3450 5000 3500
+Wire Wire Line
+	5000 4150 5200 4150
+Wire Wire Line
+	5200 4150 5200 3950
+Connection ~ 5000 4150
+Wire Wire Line
+	5000 4150 5000 4200
 $EndSCHEMATC
