@@ -37,7 +37,7 @@ F 1 "100k" H 2120 1755 50  0000 L CNN
 F 2 "HammerheadAudio:R_THT_P7.62" V 1980 1800 50  0001 C CNN
 F 3 "~" H 2050 1800 50  0001 C CNN
 	1    2050 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -697,7 +697,7 @@ F 1 "100k" H 9370 2105 50  0000 L CNN
 F 2 "HammerheadAudio:R_THT_P7.62" V 9230 2150 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 	1    9300 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R13
