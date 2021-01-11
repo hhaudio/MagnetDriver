@@ -37,7 +37,7 @@ F 1 "100k" H 2120 1755 50  0000 L CNN
 F 2 "HammerheadAudio:R_THT_P7.62" V 1980 1800 50  0001 C CNN
 F 3 "~" H 2050 1800 50  0001 C CNN
 	1    2050 1800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R4
@@ -697,7 +697,7 @@ F 1 "100k" H 9370 2105 50  0000 L CNN
 F 2 "HammerheadAudio:R_THT_P7.62" V 9230 2150 50  0001 C CNN
 F 3 "~" H 9300 2150 50  0001 C CNN
 	1    9300 2150
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
 $Comp
 L Device:R R13
@@ -852,7 +852,7 @@ F 1 "A1M" V 11784 2100 50  0000 C CNN
 F 2 "HammerheadAudio:PTV09_PT6_Stacked" H 11900 2100 50  0001 C CNN
 F 3 "~" H 11900 2100 50  0001 C CNN
 	1    11900 2100
-	0    -1   1    0   
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:C C6
@@ -895,8 +895,6 @@ Wire Wire Line
 Wire Wire Line
 	11500 2650 11550 2650
 Wire Wire Line
-	11550 2650 11550 2250
-Wire Wire Line
 	11550 1750 11750 1750
 Connection ~ 11550 2650
 Wire Wire Line
@@ -907,11 +905,6 @@ Connection ~ 11550 2100
 Wire Wire Line
 	11550 2100 11550 1750
 Wire Wire Line
-	11900 2250 11550 2250
-Connection ~ 11550 2250
-Wire Wire Line
-	11550 2250 11550 2100
-Wire Wire Line
 	12050 1750 12250 1750
 Wire Wire Line
 	12250 1750 12250 2100
@@ -921,7 +914,7 @@ Wire Wire Line
 	12050 2100 12250 2100
 Connection ~ 12250 2100
 Wire Wire Line
-	12250 2100 12250 2750
+	12250 2100 12250 2250
 $Comp
 L Amplifier_Operational:LM324 U1
 U 4 1 60015404
@@ -1599,4 +1592,11 @@ Wire Wire Line
 Connection ~ 5000 4150
 Wire Wire Line
 	5000 4150 5000 4200
+Wire Wire Line
+	11550 2100 11550 2650
+Wire Wire Line
+	11900 2250 12250 2250
+Connection ~ 12250 2250
+Wire Wire Line
+	12250 2250 12250 2750
 $EndSCHEMATC
