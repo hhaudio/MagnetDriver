@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 26)
+    (drawings 27)
     (tracks 264)
     (zones 0)
     (modules 62)
@@ -6343,6 +6343,9 @@
     )
   )
 
+  (gr_text M1=T/L (at 96.25 148.5) (layer F.SilkS) (tstamp 5FFFD33E)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_text PWR_IND (at 68 55 270) (layer F.SilkS) (tstamp 5FFF4465)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -6352,10 +6355,10 @@
   (gr_text "! WARNING !\n! HEATSINKS MAY BE HOT !" (at 146.5 100 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (gr_text "M1_OUT ▶" (at 146.5 71 90) (layer F.SilkS) (tstamp 5FFE3B78)
+  (gr_text "M1_OUT(T/L) ▶" (at 146.5 70.5 90) (layer F.SilkS) (tstamp 5FFE3B78)
     (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
-  (gr_text "◀ M2_OUT" (at 146.5 129.25 90) (layer F.SilkS) (tstamp 5FFE3B74)
+  (gr_text "◀ M2_OUT(R/R)" (at 146.5 129.5 90) (layer F.SilkS) (tstamp 5FFE3B74)
     (effects (font (size 1 1) (thickness 0.15)) (justify left))
   )
   (dimension 16 (width 0.15) (layer Cmts.User)
