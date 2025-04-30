@@ -70,7 +70,7 @@
     (aux_axis_origin 0 0)
     (visible_elements FFFFFF7F)
     (pcbplotparams
-      (layerselection 0x010fc_ffffffff)
+      (layerselection 0x010f0_ffffffff)
       (usegerberextensions false)
       (usegerberattributes false)
       (usegerberadvancedattributes false)
@@ -93,9 +93,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory "MagnetDriver_Gerbers_V0.1/"))
   )
 
   (net 0 "")
@@ -3149,6 +3149,7 @@
       (xy 27 -15.25)) (layer B.SilkS) (width 0.01))
     (fp_poly (pts (xy 27.25 -15.25) (xy 27.5 -15.25) (xy 27.5 -15.5) (xy 27.25 -15.5)
       (xy 27.25 -15.25)) (layer B.SilkS) (width 0.01))
+      (attr smd)
   )
 
   (module HammerheadAudio:TO-220_BigHeatsink (layer F.Cu) (tedit 5FFC935A) (tstamp 5FFDE7CE)
@@ -3175,6 +3176,7 @@
       (clearance 2))
     (pad "" np_thru_hole circle (at -12.7 0 180) (size 3.3 3.3) (drill 2.7) (layers *.Cu *.Mask)
       (clearance 2))
+      (attr smd)
   )
 
   (module HammerheadAudio:TO-220_BigHeatsink (layer F.Cu) (tedit 5FFC935A) (tstamp 5FFDE7A7)
@@ -3201,6 +3203,7 @@
       (clearance 2))
     (pad "" np_thru_hole circle (at -12.7 0) (size 3.3 3.3) (drill 2.7) (layers *.Cu *.Mask)
       (clearance 2))
+      (attr smd)
   )
 
   (module HammerheadAudio:HH_LOGO_17.5x8.75mm (layer F.Cu) (tedit 0) (tstamp 5FFF1CE9)
@@ -6089,6 +6092,7 @@
       (xy 14.765625 8.339844)) (layer F.SilkS) (width 0.01))
     (fp_poly (pts (xy 14.902344 8.339844) (xy 15.039063 8.339844) (xy 15.039063 8.476563) (xy 14.902344 8.476563)
       (xy 14.902344 8.339844)) (layer F.SilkS) (width 0.01))
+      (attr smd)
   )
 
   (module HammerheadAudio:HotSymbol (layer F.Cu) (tedit 0) (tstamp 5FFF6D34)
@@ -6227,6 +6231,7 @@
       (xy -0.218455 -2.399253) (xy -0.203088 -2.417241) (xy -0.189087 -2.431328) (xy -0.175189 -2.443493)
       (xy -0.160132 -2.45572) (xy -0.159776 -2.456006) (xy -0.122847 -2.482071) (xy -0.085904 -2.497113)
       (xy -0.037263 -2.504922) (xy -0.001013 -2.507523) (xy 0.08453 -2.506022)) (layer F.SilkS) (width 0.01))
+      (attr smd)
   )
 
   (module HammerheadAudio:HotSymbol (layer F.Cu) (tedit 0) (tstamp 5FFF6D32)
@@ -6365,6 +6370,7 @@
       (xy 0.315861 -0.295716) (xy 0.330926 -0.338839) (xy 0.354206 -0.398227) (xy 0.383072 -0.467901)
       (xy 0.414892 -0.54188) (xy 0.447036 -0.614182) (xy 0.476874 -0.678829) (xy 0.501774 -0.729839)
       (xy 0.519107 -0.761232) (xy 0.522957 -0.766545) (xy 0.539327 -0.765939)) (layer F.SilkS) (width 0.01))
+      (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF64B)
@@ -6404,6 +6410,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDED87)
@@ -6443,6 +6450,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF60F)
@@ -6482,6 +6490,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDED4B)
@@ -6521,6 +6530,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF5D3)
@@ -6560,6 +6570,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF46E)
@@ -6599,6 +6610,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF432)
@@ -6638,6 +6650,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF3F6)
@@ -6677,6 +6690,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D5.1mm_W3.2mm_P5.00mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDF3BA)
@@ -6716,6 +6730,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Capacitor_THT:CP_Radial_D10.0mm_P5.00mm (layer F.Cu) (tedit 5AE50EF1) (tstamp 5FFFAA6B)
@@ -6938,6 +6953,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:DO-35-P5mm (layer F.Cu) (tedit 5EA35463) (tstamp 5FFDF58F)
@@ -6981,6 +6997,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal (layer F.Cu) (tedit 5E789889) (tstamp 5FFDE432)
@@ -7028,6 +7045,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module LED_THT:LED_D5.0mm (layer F.Cu) (tedit 5995936A) (tstamp 5FFDED15)
@@ -7064,6 +7082,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:DO-35-P5mm (layer F.Cu) (tedit 5EA35463) (tstamp 5FFDECD4)
@@ -7107,6 +7126,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal (layer F.Cu) (tedit 5E789889) (tstamp 5FFDEC84)
@@ -7154,6 +7174,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module LED_THT:LED_D5.0mm (layer F.Cu) (tedit 5995936A) (tstamp 5FFDEC46)
@@ -7190,6 +7211,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Diode_THT:D_DO-41_SOD81_P7.62mm_Horizontal (layer F.Cu) (tedit 5E789889) (tstamp 5FFDEBFD)
@@ -7237,6 +7259,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module LED_THT:LED_D5.0mm (layer F.Cu) (tedit 5995936A) (tstamp 5FFDEBBF)
@@ -7273,6 +7296,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:Phoenix_Stacked_Marking2 (layer F.Cu) (tedit 5F627D78) (tstamp 5FFDEB10)
@@ -7387,6 +7411,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:Phoenix_Stacked_Marking2 (layer F.Cu) (tedit 5F627D78) (tstamp 5FFDEA23)
@@ -7501,6 +7526,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:Tayda_SwitchedStereoJack-PJ-307 (layer F.Cu) (tedit 5FFB6E64) (tstamp 5FFDE9AC)
@@ -7534,6 +7560,7 @@
     (pad "" np_thru_hole circle (at 5 -4.5 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at 5 -2 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
     (pad "" np_thru_hole circle (at -5 -2 270) (size 1.2 1.2) (drill 1.2) (layers *.Cu *.Mask))
+    (attr smd)
   )
 
   (module HammerheadAudio:Phoenix_Stacked_Marking2 (layer F.Cu) (tedit 5F627D78) (tstamp 5FFDE8FA)
@@ -7648,6 +7675,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_TO_SOT_THT:TO-92_Inline (layer F.Cu) (tedit 5A1DD157) (tstamp 5FFDE889)
@@ -7685,6 +7713,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 5AC8BA0D) (tstamp 5FFDE83A)
@@ -7736,6 +7765,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_TO_SOT_THT:TO-92_Inline (layer F.Cu) (tedit 5A1DD157) (tstamp 5FFDE7F9)
@@ -7773,6 +7803,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown (layer F.Cu) (tedit 5AC8BA0D) (tstamp 5FFDE489)
@@ -7824,6 +7855,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE6A8)
@@ -7865,6 +7897,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE6EA)
@@ -7906,6 +7939,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE76E)
@@ -7947,6 +7981,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE72C)
@@ -7988,6 +8023,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDF0A1)
@@ -8029,6 +8065,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDF05F)
@@ -8070,6 +8107,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDF01D)
@@ -8111,6 +8149,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEFDB)
@@ -8152,6 +8191,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEF99)
@@ -8193,6 +8233,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFFCB79)
@@ -8234,6 +8275,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEF15)
@@ -8275,6 +8317,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEED3)
@@ -8316,6 +8359,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEE91)
@@ -8357,6 +8401,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEE4F)
@@ -8398,6 +8443,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEE0D)
@@ -8439,6 +8485,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDEDCB)
@@ -8480,6 +8527,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE3DE)
@@ -8521,6 +8569,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDE324)
@@ -8562,6 +8611,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:PTV09_PT6_Stacked (layer F.Cu) (tedit 5DAF41D4) (tstamp 5FFDE2B5)
@@ -8625,6 +8675,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:PTV09_PT6_Stacked (layer F.Cu) (tedit 5DAF41D4) (tstamp 5FFDE378)
@@ -8688,6 +8739,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:PTV09_PT6_Stacked (layer F.Cu) (tedit 5DAF41D4) (tstamp 5FFDF0F5)
@@ -8751,6 +8803,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_DIP:DIP-14_W7.62mm_Socket (layer F.Cu) (tedit 5A02E8C5) (tstamp 5FFDF4BF)
@@ -8823,6 +8876,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module MeowWolf_Templates:TEENSY_3.5_3.6_MINIMAL (layer F.Cu) (tedit 5BFF691C) (tstamp 5FFDE5F2)
@@ -8959,6 +9013,7 @@
       (net 71 "Net-(U2-Pad47)"))
     (pad 48 thru_hole circle (at -29.21 -7.62 90) (size 1.6 1.6) (drill 1.1) (layers *.Cu *.Mask)
       (net 74 "Net-(SW1-Pad3)"))
+      (attr smd)
   )
 
   (module HammerheadAudio:M3_MOUNT_KEEPOUT (layer F.Cu) (tedit 5FFB7506) (tstamp 5FFDF565)
@@ -8980,6 +9035,7 @@
     (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))
     (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016) (clearance 2))
+      (attr smd)
   )
 
   (module HammerheadAudio:M3_MOUNT_KEEPOUT (layer F.Cu) (tedit 5FFB7506) (tstamp 5FFDE209)
@@ -9001,6 +9057,7 @@
     (fp_circle (center 0 0) (end 5 0) (layer F.CrtYd) (width 0.127))
     (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016) (clearance 2))
+      (attr smd)
   )
 
   (module HammerheadAudio:M3_MOUNT_KEEPOUT (layer F.Cu) (tedit 5FFB7506) (tstamp 5FFDE224)
@@ -9022,6 +9079,7 @@
     (fp_arc (start 0 0) (end 0 1.8542) (angle 180) (layer F.SilkS) (width 0.2032))
     (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016) (clearance 2))
+      (attr smd)
   )
 
   (module HammerheadAudio:M3_MOUNT_KEEPOUT (layer F.Cu) (tedit 5FFB7506) (tstamp 5FFDE27B)
@@ -9043,6 +9101,7 @@
     (fp_circle (center 0 0) (end 5 0) (layer F.CrtYd) (width 0.127))
     (pad "" np_thru_hole circle (at 0 0) (size 3.302 3.302) (drill 3.302) (layers *.Cu *.Mask)
       (solder_mask_margin 0.1016) (clearance 2))
+      (attr smd)
   )
 
   (module Capacitor_THT:C_Disc_D3.0mm_W2.0mm_P2.50mm (layer F.Cu) (tedit 5AE50EF0) (tstamp 5FFDE24A)
@@ -9082,6 +9141,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFDF527)
@@ -9123,6 +9183,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module LED_THT:LED_D5.0mm (layer F.Cu) (tedit 5995936A) (tstamp 5FFFE7B0)
@@ -9159,6 +9220,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFFE7C7)
@@ -9200,6 +9262,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 5FFFE7DE)
@@ -9241,6 +9304,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:Tayda_Slide_SPDT (layer F.Cu) (tedit 5D7150B4) (tstamp 5FFFE7F0)
@@ -9269,6 +9333,7 @@
       (net 74 "Net-(SW1-Pad3)"))
     (pad "" thru_hole oval (at 5.85 0 270) (size 1.5 3) (drill oval 0.8 2.3) (layers *.Cu *.Mask))
     (pad "" thru_hole oval (at -5.85 0 270) (size 1.5 3) (drill oval 0.8 2.3) (layers *.Cu *.Mask))
+    (attr smd)
   )
 
   (module HammerheadAudio:PTV09_PT6_Stacked (layer F.Cu) (tedit 5DAF41D4) (tstamp 60005E71)
@@ -9332,6 +9397,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Package_TO_SOT_THT:TO-92_Inline (layer F.Cu) (tedit 5A1DD157) (tstamp 600060C3)
@@ -9369,6 +9435,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module HammerheadAudio:R_THT_P7.62 (layer F.Cu) (tedit 5D76CDBE) (tstamp 60006202)
@@ -9410,6 +9477,7 @@
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
+    (attr smd)
   )
 
   (module Converter_DCDC:Converter_DCDC_RECOM_R-78E-0.5_THT (layer F.Cu) (tedit 5B741BB0) (tstamp 60006219)
@@ -9882,7 +9950,7 @@
   (segment (start 70.079999 119.644999) (end 59.668003 119.644999) (width 0.25) (layer F.Cu) (net 77))
   (segment (start 70.185 119.75) (end 70.079999 119.644999) (width 0.25) (layer F.Cu) (net 77))
 
-  (zone (net 13) (net_name GND) (layer B.Cu) (tstamp 60008F9E) (hatch edge 0.508)
+  (zone (net 13) (net_name GND) (layer B.Cu) (tstamp 60008FC8) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -11335,7 +11403,7 @@
       )
     )
   )
-  (zone (net 13) (net_name GND) (layer F.Cu) (tstamp 60008F9B) (hatch edge 0.508)
+  (zone (net 13) (net_name GND) (layer F.Cu) (tstamp 60008FC5) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -12347,7 +12415,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 60008F98) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 60008FC2) (hatch edge 0.508)
     (priority 1)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
@@ -12407,7 +12475,7 @@
       )
     )
   )
-  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 60008F95) (hatch edge 0.508)
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 60008FBF) (hatch edge 0.508)
     (priority 1)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)

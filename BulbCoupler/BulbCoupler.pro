@@ -1,4 +1,4 @@
-update=Tuesday, 02 February 2021 at 16:51:10
+update=Monday, 11 January 2021 at 16:12:25
 version=1
 last_client=kicad
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=MagnetDriver.net
+LastNetListRead=BulbCoupler.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -29,14 +29,7 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.25
-TrackWidth2=0.5
-TrackWidth3=1
-TrackWidth4=2
-TrackWidth5=2.5
-TrackWidth6=3
-TrackWidth7=4
-TrackWidth8=5
-TrackWidth9=10
+TrackWidth2=1
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2
@@ -244,13 +237,3 @@ uViaDrill=0.1
 dPairWidth=0.2
 dPairGap=0.25
 dPairViaGap=0.25
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1

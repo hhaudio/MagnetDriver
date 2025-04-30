@@ -1,0 +1,48 @@
+(export (version D)
+  (design
+    (source /Users/emmettpalaima/Desktop/KiCadProjects/MagnetDriver/BulbCoupler/BulbCoupler.sch)
+    (date "Monday, 11 January 2021 at 16:11:02")
+    (tool "Eeschema (5.1.2-1)-1")
+    (sheet (number 1) (name /) (tstamps /)
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source BulbCoupler.sch)
+        (comment (number 1) (value ""))
+        (comment (number 2) (value ""))
+        (comment (number 3) (value ""))
+        (comment (number 4) (value "")))))
+  (components
+    (comp (ref J1)
+      (value Conn_02x02_Odd_Even)
+      (footprint Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical)
+      (datasheet ~)
+      (libsource (lib Connector_Generic) (part Conn_02x02_Odd_Even) (description "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"))
+      (sheetpath (names /) (tstamps /))
+      (tstamp 60B4BE96)))
+  (libparts
+    (libpart (lib Connector_Generic) (part Conn_02x02_Odd_Even)
+      (description "Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
+      (docs ~)
+      (footprints
+        (fp Connector*:*_2x??_*))
+      (fields
+        (field (name Reference) J)
+        (field (name Value) Conn_02x02_Odd_Even))
+      (pins
+        (pin (num 1) (name Pin_1) (type passive))
+        (pin (num 2) (name Pin_2) (type passive))
+        (pin (num 3) (name Pin_3) (type passive))
+        (pin (num 4) (name Pin_4) (type passive)))))
+  (libraries
+    (library (logical Connector_Generic)
+      (uri "/Library/Application Support/kicad/library/Connector_Generic.lib")))
+  (nets
+    (net (code 1) (name "Net-(J1-Pad1)")
+      (node (ref J1) (pin 1))
+      (node (ref J1) (pin 2)))
+    (net (code 2) (name "Net-(J1-Pad3)")
+      (node (ref J1) (pin 3))
+      (node (ref J1) (pin 4)))))
